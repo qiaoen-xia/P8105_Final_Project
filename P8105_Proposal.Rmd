@@ -1,7 +1,47 @@
 ---
-title: "Final_Project_Proposal"
-author: "Qiaoen Xia"
-date: "`r Sys.Date()`"
+title: "Coffee Habits and Taste Preferences_Final_Project_Proposal"
+
 output: github_document
 ---
 
+
+## Team members
+
+- Qiaoen Xia ([UNI])
+- [Name] ([UNI])
+- [Name] ([UNI])
+- [Name] ([UNI])
+
+## Motivation
+
+People differ in how they prepare coffee, what they say they like, and
+how they rate the coffee they taste. We want to explore whether
+respondents' stated preferences and self-rated coffee expertise are
+associated with their ratings of four coffee samples.
+
+## Data source
+
+We will use the [May 14, 2024 TidyTuesday Coffee Survey](https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-05-14).
+The dataset includes respondents' coffee habits, stated preferences,
+self-rated expertise, and tasting ratings for samples A through D.
+
+## Planned analyses and visualizations
+
+We will summarize brewing methods and stated roast preferences with
+bar charts. We will compare the distributions of sample preference
+ratings and explore whether rating patterns vary by expertise or
+stated roast preference. Our main data-cleaning tasks will be
+separating multiple-response survey fields, reshaping the tasting
+ratings to one row per respondent per sample, and checking how many
+respondents rated all four samples.
+
+## Final products
+
+We plan to produce a written report, a project website with selected
+visualizations, and a short screencast summarizing our findings.
+
+## Timeline
+
+- [Date]: Clean the survey data and agree on variable definitions.
+- [Date]: Complete exploratory analyses and draft visualizations.
+- [Date]: Assemble the report and website, then review and record the screencast.

@@ -1,5 +1,5 @@
 ---
-title: "Coffee Habits and Taste Preferences_Final_Project_Proposal"
+title: "Do We Know What Coffee We Like?"
 
 output: github_document
 ---
@@ -7,17 +7,14 @@ output: github_document
 
 ## Team members
 
-- Qiaoen Xia ([UNI])
+- Qiaoen Xia (qx2277)
 - [Name] ([UNI])
 - [Name] ([UNI])
 - [Name] ([UNI])
 
 ## Motivation
 
-People differ in how they prepare coffee, what they say they like, and
-how they rate the coffee they taste. We want to explore whether
-respondents' stated preferences and self-rated coffee expertise are
-associated with their ratings of four coffee samples.
+With everything from light-roast pour-overs to dark-roast cold brews on café menus, there’s plenty for coffee lovers to talk about. Ask a friend what kind of coffee they like, and they might answer without hesitation: “I always go for a dark roast.” But would a dark roast get their highest rating if they tasted four coffees without knowing which was which? That scenario motivates our main question: **Do we know what coffee we like?** Using the Coffee Survey, we will examine how closely respondents’ stated roast preferences align with their ratings of four coffee samples. We will also test whether respondents who rate their coffee expertise higher show greater agreement between what they say they prefer and what they rate most highly.
 
 ## Data source
 
@@ -38,10 +35,15 @@ respondents rated all four samples.
 ## Final products
 
 We plan to produce a written report, a project website with selected
-visualizations, and a short screencast summarizing our findings.
+visualizations, and a short video summarizing our findings.
 
 ## Timeline
 
-- [Date]: Clean the survey data and agree on variable definitions.
-- [Date]: Complete exploratory analyses and draft visualizations.
-- [Date]: Assemble the report and website, then review and record the screencast.
+- **Nov. 13 | Proposal & Team Registration** — Submit the project proposal and register the team.
+- **Nov. 16–20 | Project Review** — Meet with the teaching team to refine our research questions and confirm how to measure agreement between stated roast preferences and tasting ratings.
+- **Nov. 21–25 | Data Cleaning** — Clean and reshape the survey data, verify the characteristics of the four coffee samples, and document how we handle missing ratings and ties.
+- **Nov. 26–30 | Exploratory Data Analysis (EDA)** — Visualize stated roast preferences and tasting ratings. Explore how closely respondents’ stated preferences align with the coffees they rate most highly.
+- **Dec. 1–4 | Statistical Analysis** — Assess whether agreement increases with self-rated coffee expertise and finalize the main figures.
+- **Dec. 5–8 | Report Writing & Website Development** — Draft the full report and build the project website around the main findings and visualizations.
+- **Dec. 9–12 | Screencast & Final Submission** — Record and embed the two-minute screencast, verify that the analysis is reproducible, submit the website link, and complete peer assessments.
+- **Dec. 17 | In-Class Discussion** — Discuss our main findings and limitations with classmates.

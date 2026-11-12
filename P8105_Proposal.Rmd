@@ -1,0 +1,7 @@
+---
+title: "Final_Project_Proposal"
+author: "Qiaoen Xia"
+date: "`r Sys.Date()`"
+output: github_document
+---
+

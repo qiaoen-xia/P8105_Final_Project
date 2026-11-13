@@ -39,6 +39,15 @@ multiple-response survey fields, reshaping the tasting ratings to one
 row per respondent per sample, and checking how many respondents rated
 all four samples.
 
+## Challenges
+
+During data cleaning, the main challenges are handling missing values,
+especially distinguishing unanswered questions from responses that are
+not applicable. Another challenge is converting text-based variables
+into meaningful numeric data without losing information. We may also
+need to reshape the ratings for the four coffees to make comparisons
+easier.
+
 ## Final products
 
 We plan to produce a written report, a project website with selected

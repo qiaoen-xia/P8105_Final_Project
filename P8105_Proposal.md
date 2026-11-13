@@ -31,19 +31,16 @@ self-rated expertise, and tasting ratings for samples A through D.
 
 ## Planned analyses and visualizations
 
-We will summarize brewing methods and stated roast preferences with bar
-charts. We will compare the distributions of sample preference ratings
-and explore whether rating patterns vary by expertise or stated roast
-preference. Our main data-cleaning tasks will be separating
-multiple-response survey fields, reshaping the tasting ratings to one
-row per respondent per sample, and checking how many respondents rated
-all four samples.
-
-For statistical analysis, we plan to use chi-square tests to assess
-associations between stated preferences, blind-tasting choices, and
-expertise groups. We will then use logistic regression to investigate
-whether expertise is associated with preference consistency, adjusting
-for roast preferences and coffee-drinking habits.
+We will use bar charts to summarize brewing methods and stated roast
+preferences and compare the distributions of preference ratings across
+coffees A–D. For our primary analysis, we will compare stated light,
+medium, or dark roast preferences with each respondent’s favorite among
+coffees A–C. We will visualize the cross-tabulation, report match rates
+overall and by stated roast preference, and use a chi-square test to
+assess the association between stated roast preference and blind-tasting
+choice. We will then use logistic regression to examine whether a match
+is more likely at higher levels of self-rated expertise, adjusting for
+stated roast preference and daily coffee consumption.
 
 ## Challenges
 
@@ -65,8 +62,14 @@ survey data.
 
 ## Final products
 
-We plan to produce a written report, a project website with selected
-visualizations, and a short video summarizing our findings.
+We plan to produce a written report documenting our data-cleaning and
+analysis decisions, the challenges we encountered, and how we addressed
+them. The report and accompanying code will show how to reproduce the
+analysis and apply the same workflow to future survey data. Our project
+website will provide background on the coffee tasting survey, present
+selected visualizations and key conclusions, and include the full
+report, a link to our GitHub repository, and an embedded two-minute
+narrated screencast introducing our findings.
 
 ## Timeline
 

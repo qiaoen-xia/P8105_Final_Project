@@ -9,8 +9,8 @@ output: github_document
 
 - Qiaoen Xia (qx2277)
 - Yiran Jin (yj2991)
-- [Name] ([UNI])
-- [Name] ([UNI])
+- Xiaohan Qiang (xq2270)
+- Xuening Tang (xt2340)
 
 ## Motivation
 
@@ -32,8 +32,12 @@ separating multiple-response survey fields, reshaping the tasting
 ratings to one row per respondent per sample, and checking how many
 respondents rated all four samples.
 
+For statistical analysis, we plan to use chi-square tests to assess associations between stated preferences, blind-tasting choices, and expertise groups. We will then use logistic regression to investigate whether expertise is associated with preference consistency, adjusting for roast preferences and coffee-drinking habits.
+
 ## Challenges
 During data cleaning, the main challenges are handling missing values, especially distinguishing unanswered questions from responses that are not applicable. Another challenge is converting text-based variables into meaningful numeric data without losing information. We may also need to reshape the ratings for the four coffees to make comparisons easier.
+
+For statistical analysis, the main challenges will be defining and interpreting preference consistency, particularly when comparing match rates across different roast preferences and expertise levels. We will also need to account for unequal sample sizes across groups and ensure that the assumptions of chi-square tests and logistic regression are met. Finally, we will interpret statistical associations carefully without making causal claims, given the self-reported nature of the survey data.
 
 ## Final products
 
